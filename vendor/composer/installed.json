@@ -1,0 +1,43 @@
+[
+    {
+        "name": "typo3fluid/fluid",
+        "version": "2.6.8",
+        "version_normalized": "2.6.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TYPO3/Fluid.git",
+            "reference": "854c3b682aa4d2899f4246276cc60ad52cd8e34e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TYPO3/Fluid/zipball/854c3b682aa4d2899f4246276cc60ad52cd8e34e",
+            "reference": "854c3b682aa4d2899f4246276cc60ad52cd8e34e",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "mikey179/vfsstream": "^1.6",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^8.1",
+            "squizlabs/php_codesniffer": "^2.7"
+        },
+        "time": "2019-12-02T06:33:10+00:00",
+        "bin": [
+            "bin/fluid"
+        ],
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TYPO3Fluid\\Fluid\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "LGPL-3.0-or-later"
+        ],
+        "description": "The TYPO3 Fluid template rendering engine"
+    }
+]

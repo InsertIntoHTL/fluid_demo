@@ -1,0 +1,14 @@
+{
+    "name": "htl3r/fluid-demo",
+    "description": "Demo for Fluid",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leo Sollereder",
+            "email": "5125@htl.rennweg.at"
+        }
+    ],
+    "require": {
+        "typo3fluid/fluid": "^2.6"
+    }
+}
